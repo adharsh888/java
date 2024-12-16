@@ -5,7 +5,7 @@ public interface Animal {
 
 public class Dog implements Animal {
     public void makeSound() {
-        System.out.println("Woof! Woof!");
+        System.out.println("Woof! 60 Woof!");
     }
 
     public void eat() {
