@@ -9,7 +9,7 @@ public class Dog implements Animal {
     }
 
     public void eat() {
-        System.out.println("Dog is barking.");
+        System.out.println("Dog barking.");
     }
 }
 
@@ -19,7 +19,7 @@ public class Cat implements Animal {
     }
 
     public void eat() {
-        System.out.println("Cat is eating.");
+        System.out.println("Cat  eating.");
     }
 }
 
