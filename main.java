@@ -23,7 +23,7 @@ class Cat implements Animal {
     }
 }
 
-public class Main1 {
+ class Main1 {
     public static void main(String[] args) {
         Animal dog = new Dog();
         Animal cat = new Cat();
