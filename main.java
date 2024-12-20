@@ -1,9 +1,9 @@
-public interface Animal {
+ interface Animal {
     void makeSound();
     void eat();
 }
 
-public class Dog implements Animal {
+ class Dog implements Animal {
     public void makeSound() {
         System.out.println("Woof! 60 Woof!");
     }
@@ -13,7 +13,7 @@ public class Dog implements Animal {
     }
 }
 
-public class Cat implements Animal {
+ class Cat implements Animal {
     public void makeSound() {
         System.out.println("Meow! Meow!");
     }
@@ -23,7 +23,7 @@ public class Cat implements Animal {
     }
 }
 
-public class Main {
+ class Main {
     public static void main(String[] args) {
         Animal dog = new Dog();
         Animal cat = new Cat();
