@@ -19,7 +19,7 @@
     }
 
     public void eat() {
-        System.out.println("Cat is eating.");
+        System.out.println("Cat will eat.");
     }
 }
 
