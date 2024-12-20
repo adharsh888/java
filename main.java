@@ -1,7 +1,7 @@
 
 class PrimeNumbers 
 {
-public static void main(String[] args) 
+public static void main(String args[]) 
 {
 int limit = 100;
 System.out.println("Prime numbers between 1 and " + limit);
