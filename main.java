@@ -1,37 +1,24 @@
- interface Animal {
-    void makeSound();
-    void eat();
+
+class PrimeNumbers 
+{
+public static void main(String[] args) 
+{
+int limit = 100;
+System.out.println("Prime numbers between 1 and " + limit);
+for(int i=1; i < 100; i++)
+{
+boolean isPrime = true;
+for(int j=2; j < i ; j++)
+{
+if(i % j == 0)
+{
+isPrime = false;
+break;
+}
+}
+if(isPrime)
+System.out.print(i + " ");
+}
+}
 }
 
-class Dog implements Animal {
-    public void makeSound() {
-        System.out.println("Woof! Woof!");
-    }
-
-    public void eat() {
-        System.out.println("Dog is eating.");
-    }
-}
-
-class Cat implements Animal {
-    public void makeSound() {
-        System.out.println("Meow! Meow!");
-    }
-
-    public void eat() {
-        System.out.println("Cat is eating.");
-    }
-}
-
- class Main1 {
-    public static void main(String[] args) {
-        Animal dog = new Dog();
-        Animal cat = new Cat();
-
-        dog.makeSound();
-        dog.eat();
-
-        cat.makeSound();
-        cat.eat();
-    }
-}
